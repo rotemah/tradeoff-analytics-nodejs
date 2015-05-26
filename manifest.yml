@@ -4,9 +4,11 @@ declared-services:
     label: tradeoff_analytics
     plan: standard
 applications:
-- services:
-  - tradeoff-analytics-standard-service
   name: tradeoff-analytics-nodejs
   command: node app.js
   path: .
   memory: 128M
+  host: tradeoff-analytics-demo
+  domain: mybluemix.net
+- services:
+  - tradeoff-analytics-standard-service
