@@ -4,7 +4,7 @@
 }
 
 .top-nav {
-  background-color: #404041;
+  background-color: #872a0f;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -16,7 +16,7 @@
 }
 .top-nav .heading span {
   font-weight: 500;
-  color: #00b2ef;
+  color: #ffffff;
 }
 .top-nav a {
   font-size: 14px;
@@ -43,7 +43,7 @@
   font-weight: 400;
 }
 .header h3 {
-  color: #00b2ef;
+  color: #000000;
   font-weight: 400;
 }
 .header .fork:before {
@@ -82,7 +82,7 @@
   margin: 0px;
 }
 .header .learn-more {
-  color: #00b2ef;
+  color: #000000;
   font-weight: 400;
   margin-bottom: 15px;
 }

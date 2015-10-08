@@ -121,7 +121,7 @@
 }
 
 #tablePlaceHolder tr.even {
-  background-color: #e6f7fd;
+  background-color: #ffd4a0;
 }
 
 #tablePlaceHolder tr {
@@ -133,19 +133,19 @@
 }
 
 #tablePlaceHolder table th {
-  color: #004165;
-  background-color: #e3e4e6;
+  color: #000000;
+  background-color: #ffa573;
   padding: 2px 4px;
 }
 
 #tablePlaceHolder table th.minimize {
   color: #ffffff;
-  background-color: #8bc53f;
+  background-color: #872a0f;
 }
 
 #tablePlaceHolder table th.maximize {
   color: #ffffff;
-  background-color: #8bc53f;
+  background-color: #872a0f;
 }
 .result {
   height: 0px;
@@ -173,4 +173,29 @@ html.noScroll {
 
 .decisionArea {
   z-index: -1;
+}
+
+/*Fix watson bootstrap to Red colors*/
+a {
+  color: #000000;
+}
+.header {
+  background: #ffd4a0;
+  border-bottom:1px solid #000000;
+}
+.form-control:focus {
+  border-color: #872a0f;
+}
+.btn {
+  color: #000000;
+  border-color: #000000;
+}
+.btn:hover,.btn:focus {
+  background-color: #000000;
+}
+h1 {
+  color: #000000;
+}
+h2 {
+  color: #000000;
 }
